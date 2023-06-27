@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import Login from './Components/Login/Login';
 import Navbar from './Components/NavBar/NavBar';
 import axios from 'axios';
-axios.defaults.baseURL="http://localhost:3001"
+axios.defaults.baseURL="https://deploy-production-1c2d.up.railway.app"
 
 function App() {
   const [access, setAccess]=useState(false)
