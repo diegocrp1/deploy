@@ -1,0 +1,48 @@
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 380px;
+    border: solid 2px #050505;
+    border-radius: 20px;
+    background-color: #f2f3ec;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease;
+    /* box-shadow: 0 0 20px #262731e1; */
+    filter: drop-shadow(10px 10px 10px #242630);
+}
+
+.containerCards:hover{
+    transform: scale(1.1);
+}
+.name{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.imagenContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px 10px 0 0;
+}
+
+.nameType{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.imgData{
+    width: 30px;
+    height: 30px;
+}
+

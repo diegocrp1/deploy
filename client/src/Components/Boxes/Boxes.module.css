@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  
+  .label {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .checkbox {
+  
+  }

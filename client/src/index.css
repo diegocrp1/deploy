@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'pokemon';
+  src: url('./utils/pokemon.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  font-family: "pokemon";
+  padding: 0;
+  background-image: linear-gradient(to right, #E1BBBE, #a6bdf1,#b8f5d2)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
